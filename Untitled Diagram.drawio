@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.14">
+  <diagram name="Page-1" id="9Qz-wawpg3vupjKAQw7r">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Internet of Things (IoT)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="8" y="8" width="397" height="382" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Reverse Osmosis System" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="425" y="160" width="481" height="509" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Reverse Osmosis System" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="596" y="185" width="232" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Pretreatment" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="561" y="311" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Membrane" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="511" y="463" width="134" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Post-treatment" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="567" y="590" width="169" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="IoT Cloud Platform" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="109" y="185" width="195" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Sensor 1" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="62" y="33" width="120" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Sensor 2" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="231" y="33" width="120" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Actuator" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="145" y="311" width="122" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Raw Water Inlet" style="curved=1;startArrow=none;endArrow=block;exitX=0.37;exitY=0.99;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="639" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="Filtered Water" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.7;entryY=0;" edge="1" parent="1" source="5" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="639" y="427" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="Pure Water" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.32;entryY=-0.01;" edge="1" parent="1" source="6" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="579" y="553" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="Clean Water Outlet" style="curved=1;startArrow=none;endArrow=block;exitX=0.83;exitY=-0.01;entryX=0.63;entryY=0.99;" edge="1" parent="1" source="7" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="785" y="553" />
+              <mxPoint x="785" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="Data" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.27;entryY=-0.01;" edge="1" parent="1" source="9" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="122" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="Data" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.73;entryY=-0.01;" edge="1" parent="1" source="10" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="291" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="Control Signals" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="8" target="11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="Adjustments" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.31;entryY=0;" edge="1" parent="1" source="11" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="206" y="390" />
+              <mxPoint x="518" y="427" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
